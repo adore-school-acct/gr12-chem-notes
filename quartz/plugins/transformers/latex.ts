@@ -8,6 +8,7 @@ import { KatexOptions } from "katex"
 import { Options as MathjaxOptions } from "rehype-mathjax/svg"
 //@ts-ignore
 import { Options as TypstOptions } from "@myriaddreamin/rehype-typst"
+import "katex/contrib/mhchem"
 
 interface Options {
   renderEngine: "katex" | "mathjax" | "typst"
